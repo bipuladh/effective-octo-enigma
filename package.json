@@ -1,0 +1,11 @@
+{
+  "name": "noobaa-test-app",
+  "version": "1.0.0",
+  "description": "A simple app to add files to buckets and see them",
+  "main": "index.js",
+  "author": "bipuladh <badhikar@redhat.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.576.0"
+  }
+}
