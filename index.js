@@ -16,7 +16,7 @@ var s3 = new aws.S3();
 
 var params = {
     Bucket: bucketName,
-    Body: fs.createReadStream(filePath),
+    Body: fs.createReadStream('./dummy-data/file.txt'),
     Key: "./dummy-data/file.txt"
 };
 
